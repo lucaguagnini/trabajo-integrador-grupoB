@@ -1,0 +1,41 @@
+.titulo {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+  body {
+	background-image:url(DaVinci.jpg);
+    margin: 0;
+    background-color: #E2E2E2;
+    font-family: 'Roboto';
+}
+
+header {
+	background-image:url(logo.png);
+
+    color: white;
+    padding: 15px;
+    border-bottom: 3px rgba(84,84,84,.8) solid;
+}
+header nav ul {
+	padding: 0;
+	list-style: none;
+}
+header nav ul li {
+	display: inline-block
+}
+header nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 10px;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+	background: rgba(255,255,255,.5);
+	color: green;
+}
+header nav {
+	float: right;
+	margin-top: -65px;
+}
